@@ -1,10 +1,10 @@
 package org.automation.pages;
 
 import org.framework.base.PageBase;
-import org.framework.htmls.HtmlButton;
-import org.framework.htmls.HtmlElement;
-import org.framework.htmls.HtmlInput;
-import org.framework.htmls.HtmlLink;
+import org.framework.htmls.impl.HtmlButton;
+import org.framework.htmls.impl.HtmlElement;
+import org.framework.htmls.impl.HtmlInput;
+import org.framework.htmls.impl.HtmlLink;
 import org.openqa.selenium.By;
 
 import java.util.List;
@@ -27,7 +27,7 @@ public class HomePage extends PageBase {
     // Page Methods
 
     public List<String> getTopHeaderMenuItems() {
-        return topHeaderMenu.getAllElementsText();
+        return topHeaderMenu.getAllVisibleElementsText();
     }
 
     public List<String> getSubMenuItems() {

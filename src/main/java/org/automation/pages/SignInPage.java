@@ -1,7 +1,10 @@
 package org.automation.pages;
 
 import org.framework.base.PageBase;
-import org.framework.htmls.*;
+import org.framework.htmls.impl.HtmlButton;
+import org.framework.htmls.impl.HtmlElement;
+import org.framework.htmls.impl.HtmlInput;
+import org.framework.htmls.impl.HtmlLink;
 import org.openqa.selenium.By;
 
 public class SignInPage extends PageBase {

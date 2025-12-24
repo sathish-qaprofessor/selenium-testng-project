@@ -1,6 +1,5 @@
 package org.automation.tests;
 
-import org.automation.pages.ContactUsPage;
 import org.automation.pages.HomePage;
 import org.automation.pages.SignInPage;
 import org.framework.asserts.CustomSoftAssert;
