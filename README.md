@@ -26,7 +26,6 @@ selenium-testng-project/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── org/automation/pages/    # Page objects
-│   │   │   └── org/framework/           # framework classes, html wrappers, base classes
 │   │   └── resources/                   # config files, drivers
 │   └── test/
 │       └── java/
